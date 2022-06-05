@@ -1,0 +1,65 @@
+.bg-car {
+  width: 35px;
+  height: 25px;
+  background: url("../assets/sprites/css_sprites.png") -73px -47px;
+}
+
+.bg-people {
+  width: 28px;
+  height: 27px;
+  background: url("../assets/sprites/css_sprites.png") -10px -133px;
+}
+
+.bg-headphones {
+  width: 23px;
+  height: 24px;
+  background: url("../assets/sprites/css_sprites.png") -58px -133px;
+}
+
+.bg-logo {
+  width: 52px;
+  height: 66px;
+  background: url("../assets/sprites/css_sprites.png") -10px -47px;
+}
+
+.bg-logoText {
+  width: 213px;
+  height: 17px;
+  background: url("../assets/sprites/css_sprites.png") -10px -10px;
+}
+
+.bg-mail {
+  width: 29px;
+  height: 25px;
+  background: url("../assets/sprites/css_sprites.png") -123px -50px;
+}
+
+.bg-map {
+  width: 17px;
+  height: 24px;
+  background: url("../assets/sprites/css_sprites.png") -57px -180px;
+}
+
+.bg-pencil {
+  width: 24px;
+  height: 24px;
+  background: url("../assets/sprites/css_sprites.png") -175px -47px;
+}
+
+.bg-phone {
+  width: 22px;
+  height: 23px;
+  background: url("../assets/sprites/css_sprites.png") -101px -133px;
+}
+
+.bg-shopping_bag {
+  width: 24px;
+  height: 28px;
+  background: url("../assets/sprites/css_sprites.png") -10px -180px;
+}
+
+.bg-Magnifier {
+  width: 19px;
+  height: 20px;
+  background: url("../assets/sprites/css_sprites.png") -73px -92px;
+}
