@@ -51,6 +51,7 @@ function clickColor(color){
    
 let open = false
 function openFilter(){
+   if(innerWidth<415){
     let btn = document.querySelector('.filter__buttons')
     let card =  document.querySelectorAll('.filter__card')
 if(open===true){
@@ -60,14 +61,16 @@ if(open===true){
     
 card.forEach(el=>{
     el.style.display='none'
-})}else{open=true
-   
+})}else{
+    open=true
     btn.style.display='flex'
-  
         card.forEach(el=>{
             el.style.display='block'
         })}
+   }
 
    
 }
+
+console.log(innerWidth)
    
