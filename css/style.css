@@ -268,7 +268,7 @@ body {
   padding: 18px 66px;
   background-color: #f6f6f6;
   border: none;
-  background-image: url("../assets/sprites/Magnifier.svg");
+  background-image: url("../assets/svg/Magnifier.svg");
   background-repeat: no-repeat;
   background-position: 31px;
 }
@@ -344,7 +344,7 @@ body {
 .offer__img {
   width: 633px;
   height: 294px;
-  background-image: url(../assets/img/refrigerator.svg);
+  background-image: url(../assets/svg/refrigerator.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -406,6 +406,7 @@ body {
   width: 100%;
   height: 1910px;
   max-width: 355px;
+  flex: 1000%;
 }
 .equipment__filter-head {
   display: flex;
@@ -617,7 +618,7 @@ input[type="checkbox"]:checked + label:before {
   margin-left: 20px;
 }
 .shopping_bag-white {
-  background-image: url(/assets/img/shopping_bag-white.svg);
+  background-image: url(../assets/svg/shopping_bag-white.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 20px;
@@ -944,6 +945,12 @@ footer img {
 .logo__footer-pic {
   display: none;
 }
+.filter__buttons {
+  display: none;
+}
+.cardSmoll {
+  display: none;
+}
 @media screen and (max-width: 415px) {
   header {
     background-color: #fff;
@@ -1006,7 +1013,7 @@ footer img {
     flex-direction: column;
   }
   .offer__img {
-    background-image: url(/assets/img/refSmoll.svg);
+    background-image: url(../assets/svg/refSmoll.svg);
     background-size: auto;
     background-position: 0 -20px;
     order: 3;
@@ -1093,7 +1100,7 @@ footer img {
   .equipment__filte-title::before {
     content: "";
     display: inline-block;
-    background-image: url(/assets/img/filtersvg.svg);
+    background-image: url(../assets/svg/filtersvg.svg);
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -1141,6 +1148,7 @@ footer img {
     display: none;
   }
   .cardSmoll {
+    display: block;
     position: relative;
     margin-top: 15px;
     width: 177px;
@@ -1249,7 +1257,7 @@ footer img {
     width: 100%;
   }
   .logo__footer {
-    background-image: url(/assets/img/logoFooter.svg);
+    background-image: url(../assets/svg/logoFooter.svg);
     background-repeat: no-repeat;
     width: 280px;
     height: 65px;
