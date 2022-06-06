@@ -72,5 +72,29 @@ card.forEach(el=>{
    
 }
 
-console.log(innerWidth)
-   
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    var slider = document.getElementById('slider');
+
+    noUiSlider.create(slider, {
+        start: [3000, 25000],
+        step:1000,
+        tooltips:true, 
+        connect: true,
+        format:{
+         
+            to: function (value) {
+                return value + ' ₽';
+            },
+            from: function (value) {
+                return Number(value.replace(' ₽', ''));
+            }
+        },
+        range: {
+            'min': 3000,
+            'max': 50000
+        }
+    });
+ 
+});

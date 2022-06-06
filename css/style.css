@@ -617,7 +617,7 @@ input[type="checkbox"]:checked + label:before {
   color: #7e838c;
 }
 .boxes3 {
-  margin-bottom: 98px;
+  margin-bottom: 104px;
 }
 .filter__color {
   background-color: #38d3e8;
@@ -1110,6 +1110,58 @@ footer img {
 .cardSmoll {
   display: none;
 }
+
+/* noUiSlider styles */
+html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
+  left: auto;
+  right: 0;
+}
+.noUi-handle {
+  border: none;
+  box-shadow: none;
+}
+.noUi-handle:before,
+.noUi-handle::after {
+  display: none;
+}
+.noUi-active .noUi-tooltip {
+  display: none;
+}
+.noUi-connect {
+  background: #38d3e8;
+}
+.noUi-target {
+  background-color: #dee1e8;
+  border-radius: 3px;
+  border: none;
+}
+.noUi-horizontal .noUi-handle {
+  background: #38d3e8;
+  width: 3px;
+  height: 18px;
+  top: -7px;
+}
+.noUi-horizontal {
+  height: 3px;
+}
+.noUi-pips {
+  display: none;
+}
+
+.noUi-tooltip {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.noUi-horizontal .noUi-tooltip {
+  bottom: -40px;
+}
+#slider {
+  margin-top: 35px;
+}
+
 @media screen and (max-width: 415px) {
   header {
     background-color: #fff;
